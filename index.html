@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftyStitch - Crafting Community</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #6a0dad, #b19cd9);
+            color: white;
+            text-align: center; /* Center align all text by default */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header img {
+            max-width: 100px;
+            margin-top: 10px;
+        }
+
+        section {
+            margin: 20px 0;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        button, input[type="submit"] {
+            background-color: #b19cd9;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: calc(100% - 150px);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer hr {
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            input[type="email"] {
+                width: calc(100% - 120px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to CraftyStitch</h1>
+            <img src="./logo/CraftyStitch.jpg" alt="CraftyStitch Logo">
+        </header>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>CraftyStitch is your one-stop destination for all things knitting, crochet, and sewing. I am passionate about helping you unleash your creativity and bring your fiber art projects to life!</p>
+        </section>
+
+        <section id="why-love">
+            <h2>Why I Love Knitting, Crocheting, and Sewing</h2>
+            <p>Knitting, crocheting, and sewing are more than just hobbies - they're passions that bring joy, creativity, and a sense of accomplishment. With every stitch, we express ourselves and create something beautiful from a simple skein of yarn or piece of fabric.</p>
+            <p>There's something magical about the rhythmic movements of needles or hooks, the soft textures of yarn sliding through our fingers, and the intricate patterns taking shape beneath our hands. Whether we're knitting a cozy sweater, crocheting a delicate doily, or sewing a handmade quilt, each project is a labor of love.</p>
+            <p>But it's not just about the end result. Knitting, crocheting, and sewing provide a therapeutic escape from the stresses of daily life. They allow us to slow down, focus our minds, and find peace in the repetitive motions of our craft.</p>
+            <p>And let's not forget the sense of community that comes with being part of the crafting world. Whether we're sharing tips and tricks with fellow crafters, attending knitting circles and sewing bees, or browsing through patterns and inspiration online, we're connected by our love for creating.</p>
+            <p>So join me on this journey of creativity and self-expression. Let's knit, crochet, and sew our way to a more colorful and fulfilling life!</p>
+        </section>
+
+        <section id="products">
+            <h2>Discover Products</h2>
+            <p>From yarn to fabric, explore a wide range of high-quality crafting supplies.</p>
+            <button id="exploreBtn">Explore Now</button>
+        </section>
+
+        <section id="newsletter">
+            <h2>Join My Newsletter</h2>
+            <p>Stay inspired with crafting tips, project ideas, and exclusive offers!</p>
+            <form>
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <footer>
+            <hr>
+            <p>&copy; 2024 CraftyStitch. All rights reserved by Modiehi Patience Malete.</p>
+            <p>Terms of Service | Privacy Policy</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('exploreBtn').addEventListener('click', function() {
+            alert('Explore products coming soon!');
+        });
+    </script>
+</body>
+</html>
